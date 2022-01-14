@@ -141,12 +141,13 @@ session_start();
 
 
         </header>
+
     <nav class="w3-sidenav w3-bar-block w3-light-blue -card" id="sidebar" style="display:none">
       <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')">Fade</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Left')">Left</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Right')">Right</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Top')">Top</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Bottom')">Bottom</button>
+  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')">Left</button>
+  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')">Right</button>
+  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')">Top</button>
+  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'B')">Bottom</button>
   <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom')">Zoom</button>
     </nav>
 
@@ -209,6 +210,7 @@ session_start();
                     document.getElementById(animName).style.display = "block";
                     evt.currentTarget.className += " w3-red";
                 }
+
         </script>
     </body>
 

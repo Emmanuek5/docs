@@ -147,17 +147,23 @@ session_start();
         <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-red w3-right w3-padding-right">&times;</a>
 
       <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')">Setting up</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')">Left</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')">Right</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')">Top</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'B')">Bottom</button>
+  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Left')">Left</button>
+  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Right')">Right</button>
+  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Top')">Top</button>
+  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Bottom')">Bottom</button>
   <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom')">Zoom</button>
     </nav>
 
     <div id="Fade" class="w3-container city w3-animate-opacity" style="display:none">
-        <h2>Fade in</h2>
-        <p>London is the capital city of England.</p>
-        <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+        <div class="w3-panel w3-card w3-light-grey">
+            <h3>Example</h3>
+            <div class="w3-code notranslate">
+                fruits[0] = "Banana";<br>
+                fruits[1] = "Apple";<br>
+                fruits[2] = "Mango";<br>
+                fruits[3] = "Plum";<br>
+            </div>
+        </div>
     </div>
     
     <div id="Left" class="w3-container city w3-animate-left" style="display:none">

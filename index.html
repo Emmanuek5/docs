@@ -142,7 +142,9 @@ session_start();
 
         </header>
 
-    <nav class="w3-sidenav w3-bar-block w3-light-blue -card" id="sidebar" style="display:none">
+    <nav class="w3-sidenav nuk w3-bar-block w3-light-blue -card" id="sidebar" style="display:none">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-red w3-right w3-padding-right">&times;</a>
+
       <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')">Fade</button>
   <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')">Left</button>
   <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')">Right</button>
@@ -197,6 +199,8 @@ session_start();
             function w3_close() {
                 document.getElementById("sidebar").style.display = "none";
             }
+            
+                
             function openLink(evt, animName) {
                     var i, x, tablinks;
                     x = document.getElementsByClassName("city");

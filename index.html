@@ -23,6 +23,7 @@ session_start();
     <link rel="stylesheet" href="https://w3css.blueobsidian.repl.co/w3css/w3.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     </head>
     <style>
@@ -87,11 +88,17 @@ session_start();
                 top: 10px;
                 right: 0px;
             }
-
+          
+            h1{
+                position: absolute;
+                top: 10px;
+                right: 60px;
+            }
            
             .w3-sidebar {
                 width: 200px;
                 padding-right: 10px;
+                
 
             }
 
@@ -100,7 +107,7 @@ session_start();
         }
     </style>
 
-    <body>
+    <body style="font-family: 'Montserrat', sans-serif; ">
         <header class="w3-container w3-light-blue" style="width:100%;height: 90px;">
             <div class="w3-container " id="divsd"style="">
                 <h1>Access Api Docs</h1>
@@ -156,16 +163,36 @@ session_start();
   <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom')">Zoom</button>
     </nav>
 
-    <div id="Fade" class="w3-container city w3-animate-opacity" style="display:none">
-  <p class=""></p>
+    <div id="Fade" class="w3-container city w3-animate-opacity" style="display:none ; font-size:15px; margin-left: 10px;">
+<p>To Begin Using Accessapi</p>
+<p>You Have TO</p>
+<ol>
+    <li> Have An App <a href="https://www.accessapi.cf/developer/createapp.php" target="_blank" style="margin-left: 10px;">Create
+            App</a></li>
+    <li>Have An App Id & Secret</li>
+   
+</ol>
+<p> If You have Done All The Things Listed Above</p>
+<p>Create An index.php and a done.php file </p>
     
         <div class="w3-panel w3-card w3-light-grey">
-            <h3>Example</h3>
-            <div class="w3-code notranslate">
-                fruits[0] = "Banana";<br>
-                fruits[1] = "Apple";<br>
-                fruits[2] = "Mango";<br>
-                fruits[3] = "Plum";<br>
+           
+            <p>Copy This  Code Into Your index.php file </p> 
+            
+            <div class="w3-code notranslate htmlHigh">
+            <iframe src="https://accessapi.cf/upload/uploads/tutorial1.txt" style=" width:100%; border-style: none; "></iframe>
+            </div>
+          
+        </div>
+    
+        <p> And Then You</p>
+        <div class="w3-panel w3-card w3-light-grey">
+        
+            <p>Copy This Code Into Your done.php file </p>
+        
+            <div class="w3-code notranslate htmlHigh">
+                <iframe src="https://accessapi.cf/upload/uploads/tutorial.txt"
+                    style=" width:100%; border-style: none; "></iframe>
             </div>
         </div>
     </div>
